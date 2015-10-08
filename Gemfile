@@ -35,6 +35,9 @@ end
 # include bootstrap
 gem 'bootstrap-sass', '~> 3.3.4'
 
+# use simpleform
+gem 'simple_form'
+
 # use kaminari for pagination
 gem 'kaminari'
 
