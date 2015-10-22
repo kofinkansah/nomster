@@ -47,11 +47,14 @@ gem 'sprockets', '2.11.0'
 # use devise for authentication
 gem 'devise', '>= 3.2.4'
 
-# use geocoder for  inserting map locations
+# use geocoder for inserting map locations
 gem 'geocoder'
 
-#use figaro for ENV storage
+# use figaro for ENV storage
 gem 'figaro'
+
+# use carrierwave for uploading photos
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
