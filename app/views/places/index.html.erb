@@ -21,9 +21,12 @@
 		</div>
 	<% end %>	
 
+<div class="clear"></div>
 	<% if place.photos.present? %>	
+		<div class="col-xs-12">
     		<%= image_tag place.photos.first.picture %>		
     		<%= place.photos.first.caption %>
+    	</div>
 	<% end %>	
 
 
