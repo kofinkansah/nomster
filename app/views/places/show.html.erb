@@ -120,13 +120,13 @@ function initMap() {
 
 <div class="clear"></div>
 
-<div class="col-xs-12 col-sm-6">
-  <% @place.photos.each do |photo| %>
+
+<% @place.photos.each do |photo| %>
+<div class="fotoblock col-xs-12 col-sm-6">
       <%= image_tag photo.picture %> <br />
       <i><%= photo.caption %></i> 
 </div>   
    <% end %>
-
 
 </div>
 
