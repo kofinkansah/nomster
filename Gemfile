@@ -59,6 +59,9 @@ gem 'carrierwave'
 # use the fog gem to enable carrierwave to communicate with Amazon S3
 gem "fog", "~> 1.3.1"
 
+# use factorygirl for testing
+gem 'factory_girl_rails', '~> 4.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
